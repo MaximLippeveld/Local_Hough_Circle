@@ -1216,6 +1216,7 @@ public class Hough_Circle extends SwingWorker<Integer, String>{
             rt.addValue("Resolution", lutSize);
             rt.addValue("Frame (" + timeUnits + ")", frame*timeDimension);
             rt.addValue("Method", method);
+            rt.addValue("Image title", imp.getTitle());
         }
     }
     
